@@ -11,5 +11,11 @@
 		<h1>Frituur Frida</h1>
 		<h2>Vandaag zijn we ${openGesloten}</h2>
 		<img alt="${openGesloten}" src="images/${openGesloten}.png">
+		<dl>
+			<dt>Adres</dt>
+			<dd>${adres.straat} ${adres.huisNr}<br>
+				${adres.gemeente.postcode} ${adres.gemeente.naam}
+			</dd>
+		</dl>
 	</body>
 </html>
